@@ -6,10 +6,20 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/jwt": "^1.4.1",
+    "@elysiajs/openapi": "^1.4.14",
+    "@prisma/adapter-pg": "^7.7.0",
+    "@prisma/client": "^7.7.0",
+    "dotenv": "^17.4.2",
+    "elysia": "latest",
+    "pg": "^8.20.0",
+    "prismabox": "^1.1.26"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/pg": "^8.20.0",
+    "bun-types": "latest",
+    "prisma": "^7.7.0",
+    "typescript": "^6.0.2"
   },
   "module": "src/index.js"
 }
